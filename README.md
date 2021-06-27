@@ -20,7 +20,7 @@ A imagem abaixo trata-se de um exemplo de modelagem em 3D das principais aplica�
    | 2 Motores DC | R$ 26,00 |
    | 1 Bateria V | R$ 9,00 |
    | 1 Sensor Infravermelho | R$ 4,00 |
-   | 1 Sensor Ultrasônico HC-SR04 | R$ 14,00 |
+   | 1 Sensor Ultrassônico HC-SR04 | R$ 14,00 |
    | 1 Controle Remoto | R$ 6,56 |
    | 1 Protoboard 830 furos | R$ 15,00 |
    | 27 Jumpers | R$ 9,90 |
@@ -46,7 +46,7 @@ A imagem abaixo trata-se de um exemplo de modelagem em 3D das principais aplica�
    Botão Power o motor para;  
 
   ## 4º Passo:
-  Por fim foi ligado o Sensor Ultrasônico, e atribuido uma função para calcular a distância do LICASER até um obstáculo. Esse sensor fica na parte de trás do LICASER e funciona quando está na função de dar ré. Quando a distância for menor que 30cm, por segurança, o motor desliga.
+  Por fim foi ligado o Sensor Ultrassônico, e atribuido uma função para calcular a distância do LICASER até um obstáculo. Esse sensor fica na parte de trás do LICASER e funciona quando está na função de dar ré. Quando a distância for menor que 30cm, por segurança, o motor desliga.
   
   
   A imagem abaixo mostra a esquematização do circuito feito no Tinkercad.
