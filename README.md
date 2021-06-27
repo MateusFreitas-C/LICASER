@@ -5,7 +5,12 @@ O LICASER, sigla para Little Car Service, foi desenvolvido com a finalidade de s
 <img src = "https://raw.githubusercontent.com/MateusFreitas-C/LICASER/main/Fotos/logo.jpeg">
 </div>
 
-Este projeto, desenvolvido em grupo, objetiva a obtenção da última nota na disciplina de Introdução à Engenharia da Computação, da Universidade Federal da Paraíba (UFPB).
+Este projeto, desenvolvido em grupo, objetiva a obtenção da última nota na disciplina de Introdução à Engenharia da Computação, da Universidade Federal da Paraíba (UFPB).  
+A imagem abaixo trata-se de um exemplo de modelagem em 3D das principais aplicações do LICASER, sendo elas um Carro para Transporte de Cargas e uma Cadeira de Rodas.
+
+<div align="center">
+<img src = "https://github.com/MateusFreitas-C/LICASER/blob/main/Fotos/Design_projeto.jpeg">
+</div>
 
 # Materiais Utilizados e Orçamento:
    | Item | Preço |
@@ -21,7 +26,7 @@ Este projeto, desenvolvido em grupo, objetiva a obtenção da última nota na di
    | 27 Jumpers | R$ 9,90 |
    | Total | R$ 155,36 |
    
-   # Etapas do Desenvolvimento e Esquematização do Circuito
+   # Etapas do Desenvolvimento e Funcionamento
    
    Abaixo será descrita as etapas da realização do circuito e código do projeto.
    O circuito foi feito utilizando o simulador de Arduino Tinkercad.
@@ -31,3 +36,26 @@ Este projeto, desenvolvido em grupo, objetiva a obtenção da última nota na di
    
    ## 2º Passo:
    Foram feitos os códigos para acionamento dos motores, que inicialmente era ligados por Monitor Serial.
+   
+   ## 3º Passo:
+   Após certificar que as funções estavam funcionando corretamente, foi colocado o Sensor Infravermelho e o Controle Remoto, e ajustado o código para receber os valores do controle.  
+   Botão 2 o motor gira para frente;    
+   Botão 4 o motor gira alternadamente fazendo com que vire para a esquerda;  
+   Botão 6 o motor gira alternadamente fazendo com que vire para a direita;  
+   Botao 8 o motor gira para trás;  
+   Botão Power o motor para;  
+
+  ## 4º Passo:
+  Por fim foi ligado o Sensor Ultrasônico, e atribuido uma função para calcular a distância do LICASER até um obstáculo. Esse sensor fica na parte de trás do LICASER e funciona quando está na função de dar ré. Quando a distância for menor que 30cm, por segurança, o motor desliga.
+  
+  
+  A imagem abaixo mostra a esquematização do circuito feito no Tinkercad.
+<div align="center">
+<img src = "https://raw.githubusercontent.com/MateusFreitas-C/LICASER/main/Fotos/Esquematizacao_hardware.png">
+</div>
+  
+# Colaboradores
+
+[Marcos Oliveira](https://github.com/MarcosOliver16)  
+[Mateus Freitas](https://github.com/MateusFreitas-C)  
+[Vinicius Fernandes](https://github.com/Vinifernandess)  
